@@ -4,7 +4,7 @@
 
 - Book:
   - Campos:
-    - ISBN: String
+    - isbn: String
     - Titulo: String
     - Año: int
     - autores: Autor[]
@@ -12,7 +12,7 @@
     - hasAuthor(nif): Dado un nif devuelve si el libro tiene ese autor 
 - Autor:
   - Campos:
-    - NIF
+    - nif
     - Nombre
     - Apellidos
 - Biblioteca:
@@ -20,11 +20,11 @@
     - Nombre
     - Libros: Libro[]
   - Métodos
-    - hasBook(isbn): dado un ISBN devuelve si el libro existe en la biblioteca
-    - hasAuthor(authorNif): dado un NIF devuelve si hay algún libro de ese autor
-    - countBooks(authroNif):  dado un NIF devuelve el número de libros del autor
+    - hasBook(isbn): dado un isbn devuelve si el libro existe en la biblioteca
+    - hasAuthor(authorNif): dado un nif devuelve si hay algún libro de ese autor
+    - countBooks(authroNif):  dado un nif devuelve el número de libros del autor
     - countYearBooks(year): dado un año, devuelve el número de libros de ese año.
-    - findBook(isbn): dado un ISBN, devuelve el libro con ese ISBN. Si no lo encuentra, devuelve null
+    - findBook(isbn): dado un isbn, devuelve el libro con ese isbn. Si no lo encuentra, devuelve null
 
 ## Componentes
 
